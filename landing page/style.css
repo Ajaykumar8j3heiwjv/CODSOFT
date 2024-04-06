@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #000;
+}
+
+header {
+  background-image: url(http://4.bp.blogspot.com/-23i71nU-9GE/T4LwNDFjgLI/AAAAAAAAAZg/eeeD-nW4Ix4/s1600/www.headersl.blogspot.com%2B5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-backgroundclip: text;
+  background-color: #333;
+  color:white;
+  text-align: center;
+  border-color: aliceblue;
+  padding: 5rem;
+  font-size: 14px;
+}
+header h1{
+  font-weight: 800;
+  font-size: 90px;
+}
+
+#showcase {
+  background-image: url('backgroundimage.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: rgb(206, 240, 16);
+  padding:150px;
+}
+
+#showcase h1 {
+  margin-top: 90px;
+  font-size: 50px;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.container p h2 {
+  color:white;
+  padding-left: 144px;
+}
+
+ul {
+  list-style-type: none;
+  float: right;
+  margin-top: 25px;
+}
+
+ul li {
+  display: inline-block;
+  border: 1px solid transparent;
+  background-color: black;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 6px;
+}
+
+ul li a:hover {
+  background-color: aliceblue;
+  color: black;
+  transition: 0.6s ease-in-out;
+}
+#points ol li{
+  text-align: center;
+  font-size:x-large;
+  color:white;
+}
+#points h2{
+  padding-right: 144px;
+}
+
+.Quote {
+  padding: 150px;
+  text-align: center;
+}
+
+b {
+  color: rgb(43, 18, 237);
+}
+p{
+  color:white;
+}
+
+h3 {
+  background-color:aqua;
+  text-align: center;
+}
+
+section {
+  padding: 2rem 0;
+}
+
+section h2 {
+  margin: 1rem 0;
+  background-color: red;
+}
+
+section p {
+  line-height: 1.6;
+  color:white;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 1.5rem;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
